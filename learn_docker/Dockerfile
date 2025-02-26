@@ -11,3 +11,6 @@ COPY . .
 EXPOSE 8000
 
 CMD [ "npm", "start" ]
+
+# docker tag <image-name> username/image-name
+# docker push username/image-name
